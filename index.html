@@ -8,74 +8,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <header class="header">
-                <div class="header__logo">
-                    <img src="./images/logo.svg" alt="">
-                </div>
-                <div class="header__menu">
-                    <div class="header__menu-wrap">
-                        <a href="" class="header__button">Get started</a>
-                    </div>
-                    <nav class="header_nav menu">
-                        <div class="menu__body">
-                            <ul class="menu__list">
-                                <li class="menu__item"><a href="" class="menu__link">item 1</a></li>
-                                <li class="menu__item"><a href="" class="menu__link">item 2</a></li>
-                                <li class="menu__item"><a href="" class="menu__link">item 3</a></li>
-                                <li class="menu__item"><a href="" class="menu__link">item 4</a></li>
-                            </ul>
+    
+    <section class="main">
+        <div class="site-align">
+            <h1 class="main__title">8 ways to bring tech to the table and increase your revenue</h1>
+            <p class="main__subtitle">Download our free report today!</p>
+            <div class="main__body body-main">
+                <div class="body-main__column body-main__column-1">
+                    <ul class="body-main__list">
+                        <li class="body-main__item">Increase revenue by 35%</li>
+                        <li class="body-main__item">Reduce costs</li>
+                        <li class="body-main__item">Reduce staff turnover without increasing cost</li>
+                        <li class="body-main__item">Increase customer satisfaction</li>
+                    </ul>
+                    <form action="" class="body-main__form">
+                        <div class="body-main__form-input">
+                            <label for="name">Name</label>
+                            <input type="text" name="name">
                         </div>
-                        <div class="menu__icon">
-                            <span></span>
+                        <div class="body-main__form-input">
+                            <label for="email">Email <span>- File will be emailed to your address</span></label>
+                            <input type="email" name="email">
                         </div>
-                    </nav>
-                </div>
-            </header>
-            <main class="main">
-                <h1 class="main__title">8 ways to bring tech to the table and increase your revenue</h1>
-                <p class="main__subtitle">Download our free report today!</p>
-                <div class="main__body body-main">
-                    <div class="body-main__column body-main__column-1">
-                        <ul class="body-main__list">
-                            <li class="body-main__item">Increase revenue by 35%</li>
-                            <li class="body-main__item">Reduce costs</li>
-                            <li class="body-main__item">Reduce staff turnover without increasing cost</li>
-                            <li class="body-main__item">Increase customer satisfaction</li>
-                        </ul>
-                        <form action="" class="body-main__form">
-                            <div class="body-main__form-input">
-                                <label for="name">Name</label>
-                                <input type="text" name="name">
-                            </div>
-                            <div class="body-main__form-input">
-                                <label for="email">Email <span>- File will be emailed to your address</span></label>
-                                <input type="email" name="email">
-                            </div>
-                            <div class="body-main__form-input">
-                                <label for="phone">Telephone</label>
-                                <input type="tel" name="phone">
-                            </div>
-                            <div class="body-main__form-input">
-                                <label for="company">Company</label>
-                                <input type="text" name="company">
-                            </div>
-                            <button type="submit" class="body-main__form-btn">Download Now</button>
-                        </form>
-                        <div class="body-main__answer">
-                            <p>Thank you for your interest in our Ebook.<br> Please check your email for a link where you can download our Ebook.</p>
+                        <div class="body-main__form-input">
+                            <label for="phone">Telephone</label>
+                            <input type="tel" name="phone">
                         </div>
-                    </div>
-                    <div class="body-main__column body-main__column-2">
-                        <img src="./images/book.png" alt="" class="body-main__book">
-                        <img src="./images/grey_leaf.svg" alt="" class="body-main__leaf">
+                        <div class="body-main__form-input">
+                            <label for="company">Company</label>
+                            <input type="text" name="company">
+                        </div>
+                        <button type="submit" class="body-main__form-btn">Download Now</button>
+                    </form>
+                    <div class="body-main__answer">
+                        <p>Thank you for your interest in our Ebook.<br> Please check your email for a link where you can download our Ebook.</p>
                     </div>
                 </div>
-            </main>
+                <div class="body-main__column body-main__column-2">
+                    <img src="./images/book.png" alt="" class="body-main__book">
+                    <img src="./images/grey_leaf.svg" alt="" class="body-main__leaf">
+                </div>
+            </div>
         </div>
-    </div>
-
+    </section>
+    
     <script src="scripts.js"></script>
 </body>
 </html>
